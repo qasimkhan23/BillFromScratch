@@ -1,0 +1,68 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/"
+    ],
+    "cacheDirectory": ".jest/cache"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "web": "./node_modules/.bin/webpack-dev-server"
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "react-native-web": "0.0.25",
+    "webpack": "1.13.1",
+
+
+
+    "@expo/vector-icons": "^8.1.0",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/yup": "^0.26.4",
+    "apollo-cache-inmemory": "^1.3.12",
+    "apollo-client": "^2.4.8",
+    "apollo-link": "^1.2.6",
+    "apollo-link-error": "^1.1.5",
+    "apollo-link-http": "^1.5.9",
+    "formik": "^1.4.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "react-apollo": "^2.3.3",
+    "react-native-formik": "^1.7.1",
+    "react-native-vector-icons": "^6.1.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-native": "^4.3.0",
+    "react-scripts": "^2.1.3",
+    "upgrade": "^1.1.0",
+    "yup": "^0.26.6"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "1.14.1"
+  
+  },
+  "private": true
+}
